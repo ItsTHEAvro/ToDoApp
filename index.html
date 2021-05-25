@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Projects | To Do</title>
+</head>
+
+<body>
+    <h2 class="app-heading">My To-do list</h2>
+    <main>
+
+        <form class="todo-input-form">
+            <label for="todo-input" class="todo-input-label">Enter what to do: </label>
+            <input type="text" name="todo-input" class="todo-input" placeholder="Save the world">
+            <button type="submit" class="btn-submit noSelect">Add todo</button>
+        </form>
+
+        <ul class="todo-list">
+            <li class="todo-item">
+                <div class="todo">Walk the human.</div>
+                <a href="#" class="todo-completed noSelect">
+                    <i class="fas fa-check"></i>
+                </a>
+                <a href="#" class="delete-item noSelect">
+                    <i class="fas fa-trash"></i>
+                </a>
+            </li>
+            <li class="todo-item">
+                <div class="todo">Kill the zombies.</div>
+                <a href="#" class="todo-completed noSelect">
+                    <i class="fas fa-check"></i>
+                </a>
+                <a href="#" class="delete-item noSelect">
+                    <i class="fas fa-trash"></i>
+                </a>
+            </li>
+            <li class="todo-item">
+                <div class="todo">Become a billionaire.</div>
+                <a href="#" class="todo-completed noSelect">
+                    <i class="fas fa-check"></i>
+                </a>
+                <a href="#" class="delete-item noSelect">
+                    <i class="fas fa-trash"></i>
+                </a>
+            </li>
+            <li class="todo-item">
+                <div class="todo">Throw away the utensils.</div>
+                <a href="#" class="todo-completed noSelect">
+                    <i class="fas fa-check"></i>
+                </a>
+                <a href="#" class="delete-item noSelect">
+                    <i class="fas fa-trash"></i>
+                </a>
+            </li>
+
+        </ul>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
